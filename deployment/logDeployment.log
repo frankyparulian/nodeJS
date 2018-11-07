@@ -1,0 +1,34 @@
+Serverless: Packaging service...
+Serverless: Excluding development dependencies...
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Uploading service .zip file to S3 (825 B)...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - my-service-dev
+CloudFormation - UPDATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - UPDATE_COMPLETE - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionWunwEnlGTRoY4IyylHm0l7DUtGhoyoZUpO8SLg7weI
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionWunwEnlGTRoY4IyylHm0l7DUtGhoyoZUpO8SLg7weI
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - HelloLambdaVersionWunwEnlGTRoY4IyylHm0l7DUtGhoyoZUpO8SLg7weI
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - my-service-dev
+CloudFormation - DELETE_SKIPPED - AWS::Lambda::Version - HelloLambdaVersionbUNFTT0HP6MJBQcfo3IVUu94zR8TT9yn3zxl9jUQ50c
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - my-service-dev
+Serverless: Stack update finished...
+Service Information
+service: my-service
+stage: dev
+region: us-east-1
+stack: my-service-dev
+api keys:
+  None
+endpoints:
+  None
+functions:
+  hello: my-service-dev-hello
+
+Stack Outputs
+HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:806312709321:function:my-service-dev-hello:4
+ServerlessDeploymentBucketName: my-service-dev-serverlessdeploymentbucket-dvug6k2zgenj
+
