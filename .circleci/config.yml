@@ -1,8 +1,8 @@
 deployment:
   production:
-    branch: master
+    branch: dev
     command: 
-      - ./deploy_prod.sh
+      - ../deployment/deploy.sh
 
 test:
   override: 
